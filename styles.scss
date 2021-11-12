@@ -1,0 +1,36 @@
+// reset and globals
+$color-dark: #15141B;
+$color-yellow: #D0F224;
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.text-yellow{
+    color: $color-yellow;
+}
+
+
+@import "header";
+@import "welcome";

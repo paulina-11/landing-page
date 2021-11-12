@@ -1,38 +1,96 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/estilos.css">
-    <title>Copia de Shopify</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Landing Page - Shopify</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Shopify</div>
-                <ul class="menu">
-                    <li><a href="#">Sell</a></li>
-                    <li><a href="#"> Manage</a></li>
-                    <li><a href="#">Integrate</a> </li>
-                    <li><a href="#">Migrate</a> </li>
-                    <li><a href="#">Platform</a></li>
-                    <li><a href="#">Blog</a> </li>
-                    <li><a href="#">Let’s talk</a></li>
+    <header class="d-flex">
+        <nav class="nav-left d-flex">
+            <a class="nav-logo" href="#">
+                <img  src="/styles/shopifyplus.png" alt="logo">
+            </a>
+            <div class="container-drop">
+                <span>Sell</span>
+                <i class="fas fa-angle-down"></i>
+                <ul>
+                    <li>Sell everywhere</li>
+                    <hr>
+                    <li>Online store</li>
+                    <li>Inernational ecommerce</li>
+                    <li>Omnichannel commerce</li>
+                    <li>Headless commerce</li>
+                    <li>Campaigns and flash sales</li>
+                    <li>Retail and point of sale</li>
+                    <li>B2B ecommerce</li>
                 </ul>
+            </div>        
+            <div class="container-drop">
+                <span>Manage</span>
+                <i class="fas fa-angle-down"></i>
+                <ul>
+                    <li>Manage complexity</li>
+                    <hr>
+                    <li>Automation</li>
+                    <li>Shipping</li>
+                    <li>Payments</li>
+                </ul>
+            </div>
+            <div class="container-drop">
+                <span>Integrate</span>
+                <i class="fas fa-angle-down"></i>
+                <ul>
+                    <li>Integrate systems</li>
+                    <hr>
+                    <li>Automation</li>
+                    <li>Headless commerce</li>
+                    <li>Partners</li>
+                     </ul>
+            </div>  
+            <div class="container-drop">
+                <span>Migrate</span>
+            </div>  
+        </nav> <!-- end nav left -->
+        <nav class="nav-right d-flex">
+            <div class="container-drop">
+                <span>Platform</span>
+                <i class="fas fa-angle-down"></i>
+                <ul>
+                    <li>Shopify Plus platform</li>
+                    <hr>
+                    <li>Customer stories</li>
+                    <li>Merchant succes</li>
+                    <li>Precing</li>
+                    <li>Upgrade to Shopify Plus</li>
+                </ul>
+            </div>  
+            <div>
+                <a href="#">Blog</a>
+            </div>   
+            <div>
+                <a href="#" class="text-yellow">Let´s talk</a>
+            </div>
         </nav>
     </header>
 
-    <section class="izquierda">
-        <p>Enterprise online store</p>
-        <h1>Customize.<span>Convert.</span><span>Repeat.</span></h1>
-        <p>Optimize your online store and checkout for conversion on the only platform built for scale.</p>
-        <p class="boton"><a href="#">Let’s talk</a></p>
-    </section>
-    <section class="derecha">
-        <img src="/assets/img/1.jpg" alt="compu">
-    </section>
+    <main id="welcome" class="d-flex">
+        <section class="welcome-left">
+            <span class="text-yellow text-welcome">Enterprise online store</span>
+            <p class="h1">Customize.</p>
+            <p class="h1">Convert.</p>
+            <p class="h1">Repeat.</p>
+            <p class="h2">Optimize your online store and checkout for conversion on the only platform built for scale.</p>
+            <button class="btn-welcome">Let´s talk</button>
+        </section>
+        <img class="img-welcome" src="/styles/welcome.png" alt="imagen welcome">
+    </main>
 
-    
 </body>
 </html>

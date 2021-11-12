@@ -1,0 +1,147 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-yellow {
+  color: #D0F224;
+}
+
+header {
+  background-color: #15141B;
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.nav-logo {
+  width: 8rem;
+  padding: 0;
+}
+
+.container-drop {
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+}
+
+.container-drop ul {
+  position: absolute;
+  top: 4rem;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: #ffffff;
+  color: #15141B;
+  border-radius: .3rem;
+  display: block;
+  min-width: 15rem;
+  font-weight: 400;
+}
+
+.container-drop ul li {
+  display: block;
+  padding: .6rem;
+}
+
+.container-drop ul li:hover {
+  background-color: #ddd;
+}
+
+.container-drop hr {
+  max-width: 80%;
+  height: .2rem;
+  background-color: #15141B;
+}
+
+.container-drop:hover ul {
+  max-height: 30rem;
+}
+
+#welcome {
+  background-color: #15141B;
+  height: 100vh;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.welcome-left {
+  padding: 5rem;
+}
+
+.text-welcome {
+  font-weight: 800;
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  padding: 2rem 0;
+}
+
+.btn-welcome {
+  background-color: #D0F224;
+  display: block;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  border-radius: .3rem;
+}
+
+.btn-welcome:hover {
+  background-color: #9bb613;
+}
+
+.h1 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.h2 {
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 2rem 0;
+  max-width: 60%;
+}
+
+.img-welcome {
+  max-width: 40%;
+}
+/*# sourceMappingURL=styles.css.map */

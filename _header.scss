@@ -1,0 +1,55 @@
+header{
+    background-color: $color-dark;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    padding: 0 5rem;
+    
+}
+.nav-logo{
+    width: 8rem;
+    padding: 0;
+    
+}
+.container-drop{
+    position: relative;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .4s ease;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    ul{
+        // display: none; no es bueno para los lectores de pantanlla?? 
+        position:absolute;
+        top: 4rem;
+        max-height: 0;
+        overflow: hidden;
+        transition: all .5s;
+        background-color: #ffffff;
+        color: $color-dark;
+        border-radius: .3rem;
+        display: block;
+        min-width: 15rem;
+        font-weight: 400;
+        li{
+            display: block;
+            padding: .6rem;
+            &:hover{
+                background-color: #ddd;
+            }
+        }
+    }
+    hr{
+        max-width: 80%;
+        height: .2rem;
+        background-color: $color-dark;
+    }
+    &:hover ul{
+        max-height: 30rem ;
+
+    }
+   
+}
+
+  
